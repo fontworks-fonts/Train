@@ -39,7 +39,7 @@ This font is licensed under the [SIL Open Font License](https://scripts.sil.org/
 
 ### Characters
 
-* All glyphs in [Adobe-Japan1-3](https://github.com/adobe-type-tools/Adobe-Japan1)
+* Katakana, hiragana, alphanumeric characters, symbols, JIS level 1 kanji set, etc.
 * [GF Latin Core](https://github.com/googlefonts/gftools/tree/master/Lib/gftools/encodings/GF%20Glyph%20Sets#gf-latin-core)  
 
 
