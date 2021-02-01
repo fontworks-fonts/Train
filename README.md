@@ -21,6 +21,7 @@ You can download pre-built the TrueType font from the following page.
 
 * [python3](https://www.python.org/)  
 * [fontmake](https://github.com/googlefonts/fontmake/)
+* [glyphsLib](https://github.com/googlefonts/glyphsLib/) ([fix-vert-zero](https://github.com/googlefonts/glyphsLib/tree/fix-vert-zero))
 * [fonttools](https://github.com/fonttools/fonttools/)
 * [ttfautohint](https://www.freetype.org/ttfautohint/doc/ttfautohint.html)  
 
