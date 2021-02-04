@@ -22,6 +22,7 @@
 
 * [python3](https://www.python.org/)  
 * [fontmake](https://github.com/googlefonts/fontmake/)
+* [glyphsLib](https://github.com/googlefonts/glyphsLib/) ([fix-vert-zero](https://github.com/googlefonts/glyphsLib/tree/fix-vert-zero))
 * [fonttools](https://github.com/fonttools/fonttools/)
 * [ttfautohint](https://www.freetype.org/ttfautohint/doc/ttfautohint.html)  
 
@@ -43,7 +44,7 @@
 
 ### 収録文字
 
-* [Adobe-Japan1-3](https://github.com/adobe-type-tools/Adobe-Japan1)の全グリフ  
+* カタカナ、ひらがな、英数字、記号類、JIS第一水準漢字など
 * [GF Latin Core](https://github.com/googlefonts/gftools/tree/master/Lib/gftools/encodings/GF%20Glyph%20Sets#gf-latin-core)  
 
 

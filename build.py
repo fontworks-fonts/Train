@@ -20,7 +20,8 @@ for font in Path("master_ttf").glob("*.ttf"):
     modifiedFont["name"].addMultilingualName({'ja':'トレイン One'}, modifiedFont, nameID = 1, windows=True, mac=False)
     modifiedFont["name"].addMultilingualName({'ja':'Regular'}, modifiedFont, nameID = 2, windows=True, mac=False)
     modifiedFont["head"].flags |= 1 << 3        #sets flag to always round PPEM to integer
-
+    modifiedFont["GDEF"].table.GlyphClassDef.classDefs = {"acutecomb": 3, "uni0306": 3, "uni0307": 3, "uni0308": 3, "uni030B": 3, "uni0328": 3, "uni030C": 3, "uni0305": 3, "acutecomb.rotat": 3, "uni0302.rotat": 3, "uni0306.rotat": 3, "uni0307.rotat": 3, "uni0308.rotat": 3, "uni030B.rotat": 3, "uni0328.rotat": 3, "uni030C.rotat": 3, "uni0305.rotat": 3}        #define mark glyph class in GDEF table
+    
     modifiedFont.save("fonts/ttf/"+str(font).split("/")[1])
 
 shutil.rmtree("instance_ufo")

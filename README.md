@@ -21,6 +21,7 @@ You can download pre-built the TrueType font from the following page.
 
 * [python3](https://www.python.org/)  
 * [fontmake](https://github.com/googlefonts/fontmake/)
+* [glyphsLib](https://github.com/googlefonts/glyphsLib/) ([fix-vert-zero](https://github.com/googlefonts/glyphsLib/tree/fix-vert-zero))
 * [fonttools](https://github.com/fonttools/fonttools/)
 * [ttfautohint](https://www.freetype.org/ttfautohint/doc/ttfautohint.html)  
 
@@ -39,7 +40,7 @@ This font is licensed under the [SIL Open Font License](https://scripts.sil.org/
 
 ### Characters
 
-* All glyphs in [Adobe-Japan1-3](https://github.com/adobe-type-tools/Adobe-Japan1)
+* Katakana, hiragana, alphanumeric characters, symbols, JIS level 1 kanji set, etc.
 * [GF Latin Core](https://github.com/googlefonts/gftools/tree/master/Lib/gftools/encodings/GF%20Glyph%20Sets#gf-latin-core)  
 
 
