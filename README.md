@@ -31,6 +31,9 @@ Change the current working directory to 'Train' folder and run **build.py** .
 
     $ python build.py
 
+If the **--autohinting** command line option is specified, it will add hinting with ttfautohint.
+
+    $ python build.py --autohinting
 
 ### Licence
 
@@ -39,7 +42,7 @@ This font is licensed under the [SIL Open Font License](https://scripts.sil.org/
 
 ### Characters
 
-* All glyphs in [Adobe-Japan1-3](https://github.com/adobe-type-tools/Adobe-Japan1)
+* Katakana, hiragana, alphanumeric characters, symbols, JIS level 1 kanji set, etc.
 * [GF Latin Core](https://github.com/googlefonts/gftools/tree/master/Lib/gftools/encodings/GF%20Glyph%20Sets#gf-latin-core)  
 
 

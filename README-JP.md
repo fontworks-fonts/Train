@@ -32,6 +32,9 @@
 
     $ python build.py
 
+**--autohinting**コマンドラインオプションを指定すると、ttfautohintを使用してヒントを付与します。
+
+    $ python build.py --autohinting
 
 ### ライセンス
 
@@ -43,7 +46,7 @@
 
 ### 収録文字
 
-* [Adobe-Japan1-3](https://github.com/adobe-type-tools/Adobe-Japan1)の全グリフ  
+* カタカナ、ひらがな、英数字、記号類、JIS第一水準漢字など
 * [GF Latin Core](https://github.com/googlefonts/gftools/tree/master/Lib/gftools/encodings/GF%20Glyph%20Sets#gf-latin-core)  
 
 
